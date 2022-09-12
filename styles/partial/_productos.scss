@@ -1,0 +1,58 @@
+#productos{
+    grid-area: productos;
+    }
+    .menu2{
+           color: rgb(66, 3, 3);
+           text-align: center;
+           font-size: 150%;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           font-size: medium;
+           font-style: italic;
+           background-color: rgb(231, 223, 223);
+           display: grid;
+           grid-template-rows:500px;
+           background-image: url(../images/123.jpg);
+           background-size: cover;
+           position: static;
+            
+                 liv{
+                     a{
+                       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                       font-size: 300%;                        
+                       font-style: italic;
+                       text-align: right;
+                       }
+                    h1{
+                       color: rgb(8, 7, 7);
+                       font-size:300%;
+                       }
+                     p{
+                       color: rgb(9, 8, 9);
+                       ruby-position: inline;
+                       bottom: 1px;
+                       right:50px;  
+                       }   
+                    }
+                }
+     .buton{
+        
+            background-image: linear-gradient$productosfondo;
+            border-radius: 0.5rem;
+            font-size: 1.5rem;
+            border: 0;
+            color: rgb(16, 17, 18);
+            padding: 00.5rem;
+            cursor: pointer;
+            transition: padding 0.3s ease;
+           } 
+           
+           
+@media screen and (max-width: 760px){
+  #productos{
+             .menu2{
+              font-size:50%;
+             }
+            }
+          }
+  
+  

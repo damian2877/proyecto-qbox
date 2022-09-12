@@ -1,0 +1,40 @@
+
+@import "./partial/botones","./partial/maps","./partial/font","./partial/Colores", "./partial/header", "./partial/nav", "./partial/footer", "./partial/productos", "./partial/pag-servicios", "./partial/publicidad", "./partial/imagenes", "./partial/Ubicacion", "./partial/pag-servicios", "./partial/tarifas";
+
+
+.grid
+   {
+    display: grid;
+    grid-template-areas: 
+    "nav nav  nav "
+    "header  header header "
+    "productos productos productos"
+    "publicidad publicidad publicidad"
+    "footer footer footer";
+    grid-template-rows: 50px 200px 500px 190px 170px ;
+    grid-template-columns:10% auto 08%;
+    };
+
+ 
+
+    @media screen and (max-windth:760px) {
+     productos{
+        h3{
+            font-size: small;
+        }
+     }
+        
+    };
+    
+
+
+
+         
+
+ 
+    
+
+    
+      
+
+   

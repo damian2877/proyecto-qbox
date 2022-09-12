@@ -1,0 +1,20 @@
+.fondo{
+       background-color: rgb(48, 48, 46);
+       text-align: center;
+       font-variant-caps: $fonttitulos;
+        h1{
+            color: antiquewhite;
+           } 
+   }
+.mapa{
+      color: rgb(9, 9, 9);
+      font-size: large;
+      text-align: center;
+      }
+ 
+   
+.mapa2{
+       transform: translate(30px, 40px);
+       border: 04px solid black;
+       border-radius: 05px;
+      }

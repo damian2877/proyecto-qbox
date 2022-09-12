@@ -1,0 +1,21 @@
+header{
+    grid-area: header;
+    background-image: $headerfondo;
+    font-size:500%;
+    font-variant-caps: all-petite-caps;
+    text-align:center;  
+     div{
+        color: azure;
+     }
+         h4{
+        text-align: center;
+        font-size: 74%;
+        color: rgb(223, 219, 227)
+         }
+        }  
+@media screen and (max-width: 780px)
+{
+  header{
+         font-size: 215%;
+        } 
+}

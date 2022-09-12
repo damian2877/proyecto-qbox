@@ -1,0 +1,11 @@
+.footer{
+        grid-area: footer;
+        background-image: linear-gradient $footerfondo;
+        color: rgb(12, 12, 13);
+        text-align: center;
+       }
+@media screen and (max-width: 760px) {
+        .footer{
+                font: size 5000%;;
+             }
+           }  
