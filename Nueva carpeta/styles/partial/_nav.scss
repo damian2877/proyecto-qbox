@@ -1,0 +1,13 @@
+nav{
+    grid-area: nav;
+    background-image: $navfondo;
+    font-variant-caps: $fonttitulos;
+    position: relative;
+    .navbar{
+            div{
+             a{
+                color: aliceblue;
+                }
+                }
+            }
+        }
