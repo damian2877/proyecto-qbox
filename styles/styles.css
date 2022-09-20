@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Titan+One&display=swap");
 header {
   grid-area: header;
   background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(63, 62, 65));
@@ -7,10 +8,17 @@ header {
 }
 header div {
   color: azure;
+  font-variant: small-caps;
+  font-family: "Bungee Spice", cursive;
+  font-size: 100%;
+  color: rgb(191, 156, 0);
+}
+header iframe {
+  position: relative;
 }
 header h4 {
   text-align: center;
-  font-size: 74%;
+  font-size: 40%;
   color: rgb(223, 219, 227);
 }
 
@@ -31,8 +39,8 @@ nav .navbar div a {
 
 .footer {
   grid-area: footer;
-  background-image: linear-gradient linear-gradient(to top, #333333, #666666, #888888);
-  color: rgb(12, 12, 13);
+  background-image: linear-gradient linear-gradient(to top, #383737, #666666, #888888);
+  color: rgb(24, 24, 25);
   text-align: center;
 }
 
@@ -96,6 +104,7 @@ nav .navbar div a {
   background-image: url("../images/blanco.jpg");
   background-image: linear-gradient linear-gradient(to top, #a39e9e, #8f7878, #999999);
   font-variant-caps: all-petite-caps;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow: scroll;
   background-size: 200%;
   text-align: center;
@@ -116,21 +125,40 @@ aside {
   font-size: 120%;
 }
 
+.imag {
+  margin: 8%;
+  padding: 0%;
+}
+
+.imagenes {
+  border: 5px solid;
+  border-radius: 30%;
+  background-color: darkslategrey;
+}
+
+.titulos {
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-left: auto;
+}
+
 .fondo4 h1 {
   text-align: center;
 }
 
 .navbar-brand {
   color: aliceblue;
+  border-radius: 2%;
+  border-color: black;
 }
 
 .fondo {
-  background-color: rgb(48, 48, 46);
+  background-color: rgb(233, 233, 224);
   text-align: center;
   font-variant-caps: all-petite-caps;
 }
 .fondo h1 {
-  color: antiquewhite;
+  color: rgb(18, 17, 16);
 }
 
 .mapa {
@@ -142,13 +170,14 @@ aside {
 .mapa2 {
   transform: translate(30px, 40px);
   border: 4px solid black;
-  border-radius: 5px;
+  border-radius: 100%;
 }
 
 .fondo2 {
   background-image: url("../images/blanco.jpg");
   background-image: linear-gradient linear-gradient(to top, #a39e9e, #8f7878, #999999);
   font-variant-caps: all-petite-caps;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow: scroll;
   background-size: 200%;
   text-align: center;
