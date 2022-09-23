@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Titan+One&display=swap");
 header {
   grid-area: header;
   background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(63, 62, 65));
@@ -9,7 +9,7 @@ header {
 header div {
   color: azure;
   font-variant: small-caps;
-  font-family: "Bungee Spice", cursive;
+  font-family: "Rubik Dirt", cursive;
   font-size: 100%;
   color: rgb(191, 156, 0);
 }

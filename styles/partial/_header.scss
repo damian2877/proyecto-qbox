@@ -1,5 +1,6 @@
 
 header{
+  
     grid-area: header;
     background-image: $headerfondo;
     font-size:500%;
@@ -8,7 +9,7 @@ header{
      div{
         color: azure;
         font-variant: small-caps;
-        font-family: 'Bungee Spice', cursive;
+        font-family: 'Rubik Dirt', cursive;
         font-size: 100%;
         color: rgb(191, 156, 0);
       }
@@ -16,6 +17,7 @@ header{
         position: relative;
       }
          h4{
+          
         text-align: center;
         font-size: 40%;
         color: rgb(223, 219, 227)
